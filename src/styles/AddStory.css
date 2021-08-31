@@ -1,0 +1,82 @@
+.showrecipe {
+    /*   margin: 50px; */
+    /*   flex-grow: 1;
+      display: flex;
+      align-items: center; */
+    /*   flex-direction: column;
+      min-height: 300px; */
+    justify-content: center;
+    max-width: 35rem;
+    margin: 20px 0px;
+    /*   align-items: center; */
+    /*   max-height: 300px */
+}
+
+.addstory {
+    flex-grow: 1;
+    display: flex;
+    /*   justify-content: center;
+      align-items: center; */
+    flex-direction: column;
+    /*   min-height: 300px; */
+    /*added by matan:*/
+    margin-top: 1px;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*floating peach*/
+/*#rightcol {*/
+/*    background: url("https://cdn.glitch.com/0b57df91-f600-46a4-956b-70a322817e9a%2Fpeach%20no%20background.png?v=1619938755011") no-repeat;*/
+/*    background-position: bottom right;*/
+/*    background-size: 200px;*/
+/*    margin-bottom: 5px;*/
+/*}*/
+.recipecard {
+    padding: 0px;
+    height: 100%;
+
+    /*   max-wideth: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+    /*
+  .btn-submit {
+    margin: 15px; */
+}
+
+.background {
+    background-size: 100%;
+    background: url("https://cdn.glitch.com/0b57df91-f600-46a4-956b-70a322817e9a%2Frm32-chim-32-m-marble_0raw_pixel.jpg?v=1619517213009") top;
+    text-align: center;
+    min-height: 92vh;
+    overflow: hidden;
+
+
+
+    /*   background-img: scr(") */
+    /*   background-color: #fffef5; */
+}
+
+.darken {
+    filter: brightness(80%);
+
+}
+
+.headline {
+    -webkit-text-stroke: 0.1px #000000;
+}
+
+/*.container {*/
+/*    flex-grow: 1;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*
+li {
+  text-align: left;
+
+}
+ */

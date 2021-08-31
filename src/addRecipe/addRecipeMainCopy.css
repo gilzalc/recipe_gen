@@ -1,0 +1,24 @@
+.allcontent {
+    flex: border-box;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: [column1] 15px [column2] auto [column3] auto [column4] auto [column5] 15% [column6];
+    grid-template-rows: [row1] 10px [row2] auto [row3] auto [row4] 10px [row5];
+
+}
+
+.marginLeft {
+    grid-area: row1 / column1 / row4 / column2;
+}
+.marginRight {
+    grid-area: row1 / column5 / row4 / column6;
+}
+
+
+
+/*.secondcontent {*/
+/*    grid-area: row2 / column2 / row4 / colum5;*/
+/*    !*background: url("https://cdn.glitch.com/0b57df91-f600-46a4-956b-70a322817e9a%2Fbrooke-lark-wMzx2nBdeng-unsplash.jpg?v=1619933227617");*!*/
+/*    !*background-color: #61dafb;*!*/
+/*    background-size: cover;*/
+/*}*/

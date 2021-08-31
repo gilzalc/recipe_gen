@@ -1,0 +1,30 @@
+.image-div {
+    position: relative;
+    float:left;
+    margin:5px;}
+
+.image-div:hover .hidden_img
+{
+    display: block;
+}
+
+.image-div .hidden_img {
+    position:absolute;
+    top: 37%;
+    left: 40%;
+    text-align:center;
+    display:none;
+    transition: opacity .2s, visibility .2s;
+
+}
+/*.img__description {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    color: #fff;*/
+/*    visibility: hidden;*/
+/*    opacity: 0;*/
+/*    !* transition effect. not necessary *!*/
+/*}*/

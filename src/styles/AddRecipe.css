@@ -1,0 +1,5 @@
+.AddRecipe {
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+}

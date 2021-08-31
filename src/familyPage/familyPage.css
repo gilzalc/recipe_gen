@@ -1,0 +1,72 @@
+.main_body_items_and_filter{
+    /*flex: border-box;*/
+    overflow: auto;
+    display: grid;
+    grid-template-columns: [column1] 25px [column2] 200px [column3] 40px [column4] auto [column5] 25px [column6];
+    grid-template-rows: [row1] 10px [row2] auto [row3] auto [row4] 10px [row5];
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/grandma-cooked-oatmeal.appspot.com/o/project%20files%2Fspoon%20with%20black%20spice%20side.jpg?alt=media&token=c93d6ac4-1334-41b3-b89e-54855bca5630);
+    background-size: cover;
+    background-position: top right;
+}
+
+.marginLeft {
+    grid-area: row1 / column1 / row4 / column2;
+}
+.marginRight {
+    grid-area: row1 / column5 / row4 / column6;
+}
+
+.filters_and_recipes{
+    grid-area: row3 / column2 / row4 / column5;
+    display: grid;
+    grid-template-columns: 200px auto 25%;
+}
+
+.filtersCheckbox {
+    /*display: ;*/
+    grid-area: row3 / column2 / row4 / column3;
+    margin-right: 0;
+    width: 100px;
+}
+
+.filterHeader{
+    max-width: 180px ;
+    grid-column: 1;
+    /*min-height: 2rem;*/
+    /*width: 20%;*/
+}
+
+.recipes {
+    grid-column: 2 / -1;
+    margin: 30px 10px 40px;
+    zoom: 100%;
+    justify-content: space-around;
+    /*overflow: hidden;*/
+    background: none;
+    /*max-width: 100%;*/
+}
+/*.addRecipeButton {*/
+.MuiButtonBase-root.MuiFab-root.makeStyles-margin-7.MuiFab-extended {
+    margin-top: 40px;
+}
+.addRecipeButton.MuiButtonBase-root {
+    grid-column: 1;
+    height: 40px;
+    /*margin-top: 20px;*/
+    box-sizing: border-box;
+}
+.searchRecipeMain {
+    grid-column: 3;
+    margin-top: 23px;
+    /*position: fixed;*/
+    bottom: 0px;
+    /*size: ;*/
+}
+
+
+.header {
+    /*grid-row: row2/ row3;*/
+    /*grid-column: column1/column5;*/
+    grid-area: row2 / column2 / row3 / column5;
+}
+

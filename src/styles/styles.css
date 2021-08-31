@@ -1,0 +1,48 @@
+#signup {
+    background: url("https://cdn.glitch.com/0b57df91-f600-46a4-956b-70a322817e9a%2Fkitchen-cooking-book-food-freepik-closeup.jpg?v=1618483182166")
+    no-repeat;
+    /*   height: 100vh; */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /*  https://cdn.glitch.com/0b57df91-f600-46a4-956b-70a322817e9a%2Ffreepik-spices-one-wooden-spoon.jpeg?v=1618485175223  */
+}
+
+#group-code {
+    /*   flex-grow: 1; */
+    background-image: url("https://cdn.glitch.com/0b57df91-f600-46a4-956b-70a322817e9a%2Fdiveristy-condiments-frame-with-copy-space-freepik.jpg?v=1618483176683");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    /*   filter-image: opacity (0.4); */
+}
+
+#group-code input {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+}
+
+@media (max-width: 700px) {
+    #container {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
+}
+
+#signup,
+#group-code {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 300px;
+}
+

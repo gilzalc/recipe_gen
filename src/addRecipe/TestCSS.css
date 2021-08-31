@@ -1,0 +1,6 @@
+.buttons {
+    color: wheat;
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-end;
+}

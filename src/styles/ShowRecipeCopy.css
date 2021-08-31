@@ -1,0 +1,88 @@
+.recipe_and_story_display_outer_div {
+    display: grid;
+    grid-template-columns: [column1] 25px [column2] auto [column3] auto [column4] 25px [column5];
+    grid-template-rows: [row1] 10px [row2] 20% [row3] auto [row4] auto [row5] 10px [row6];
+    min-height: 90vh;
+}
+.ShowRecipeHeader {
+  grid-area: row2 / column2 / row3 / column4;
+}
+
+.ShowRecipeStoryPart-Text {
+    grid-area: row3 / column2 / row4 / column3;
+}
+
+.ShowRecipeStoryPart-pictures {
+    grid-area: row3 / column2 / row4 / column4;
+}
+
+.ShowRecipeInstructionsPart {
+    grid-area: row4 / column2 / row5 / column4;
+}
+
+.recipe-general-details {
+    margin-top: 20px;
+}
+
+
+.showrecipe{
+    justify-content: center;
+    max-width: 80rem;
+    margin: 20px 0px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.showrecipe {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Head_Picture_Story {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+
+.recipecard {
+    padding: 0px;
+}
+
+.colored-background {
+    background: url("https://cdn.glitch.com/0b57df91-f600-46a4-956b-70a322817e9a%2Fmadison-bracaglia-fcWAwPKpkTU-unsplash.jpg?v=1618811435437");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.darken {
+    filter: brightness(80%);
+
+}
+.storyText{
+    text-indent: 100px;
+    text-align: center;
+    font-family: 'Tahoma',serif ;
+    font-size: 20px;
+}
+
+.show_ingredients{
+    text-align: left;
+    list-style-type: square;
+}
+
+.show_instruction{
+    text-align: left;
+}
+
+.headline {
+    -webkit-text-stroke: 0.1px #000000;
+}
+
+.Main_headline{
+    font-size: 100px;
+    color: white;
+}
